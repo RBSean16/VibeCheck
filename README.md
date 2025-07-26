@@ -64,7 +64,7 @@ With your virtual environment activated, you can now install all the Python libr
 Run the following command in your activated terminal:
 
 ```bash
-pip install flet fastapi uvicorn matplotlib seaborn pandas
+pip install flet fastapi "uvicorn[standard]" matplotlib seaborn pandas numpy
 ```
 
 This command will download and install all the necessary packages.
