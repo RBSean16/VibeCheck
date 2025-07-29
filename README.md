@@ -78,7 +78,7 @@ VibeCheck consists of two parts: a backend server and a frontend application. Yo
 Open a **new** terminal window. Navigate to your VibeCheck project directory, activate your virtual environment, and then run the backend server:
 
 ```bash
-uvicorn UI:app --reload
+uvicorn back:app --reload
 ```
 
 ### Step 2: Start the Frontend Application
@@ -86,7 +86,7 @@ uvicorn UI:app --reload
 Open **another separate** terminal window. Navigate to your VibeCheck project directory, activate your virtual environment, and then run the frontend:
 
 ```bash
-python back.py
+python UI.py
 ```
 
 Once both the backend and frontend are running, the VibeCheck application window should appear, and you can start logging your moods and insights\!
